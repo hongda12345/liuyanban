@@ -1,0 +1,143 @@
+/*
+* @Author: 宏达
+* @Date:   2017-09-25 21:27:17
+* @Last Modified by:   宏达
+* @Last Modified time: 2017-09-26 20:53:27
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+main{
+	width: 100%;
+	height: 800px;
+	/* background: #f2f2f2; */
+}
+main > .beijing{
+	width: 100%;
+	height: 800px;
+	/* background: red; */
+	/* position: relative; */
+}
+img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#qq{
+	width: 560px;
+    height: 170px;
+    background: #fff;
+    margin: 50px auto 30px;
+    border-radius: 5px;
+    position: absolute;
+    padding: 0 20px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+#qq > p{
+	font-size: 12px;
+    color: #666;
+    font-family: "微软雅黑";
+    line-height: 45px;
+    text-indent: 0px;
+}
+#qq > #yonghu{
+	width: 555px;
+    height: 20px;
+    margin: 0px auto;
+    outline: none;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding: 5px 5px;
+}
+#qq > #massage{
+    width: 555px;
+    height: 50px;
+    margin: 0px auto;
+    outline: none;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    resize: none;
+}
+#qq > .but{
+	width: 560px;
+    height: 35px;
+    margin: 15px auto 0px;
+    position: relative;
+}
+#qq > .but > .bq{
+	float: left;
+	width: 22px;
+	height: 22px;
+}
+#qq > .but > img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#qq > .but >.submit{
+	width: 80px;
+    height: 30px;
+    background: #ff8140;
+    display: block;
+    float: right;
+    line-height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    font-family: "微软雅黑";
+    border: none;
+    outline: none;
+}
+.msgcon{
+	width: 600px;
+    height: 500px;
+    background: #fff;
+    margin: 0px auto;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.msgcon > li{
+	width: 580px;
+	height: 80px;
+    background: #fff;s
+	position: relative;
+	padding: 20px;
+}
+.msgcon > li > img{
+	width: 80px;
+	height: 80px;
+	border-radius: 5px;
+	position: absolute;
+}
+.msgcon > li > .middle{
+	position: relative;
+	margin-left: 85px;
+	padding: 10px;
+}
+.msgcon > li > .middle > .xm{
+	width: auto;
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.msgcon > li > .middle > .ly{
+	width: auto;
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
